@@ -1,0 +1,38 @@
+{
+  "name": "tech-blog-cms",
+  "version": "1.0.0",
+  "description": "A Tech blog for developers to read and post",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seeds": "node seeds/index.js",
+    "dev": "nodemon index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjos7/tech-blog-cms.git"
+  },
+  "author": "Mark Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjos7/tech-blog-cms/issues"
+  },
+  "homepage": "https://github.com/mjos7/tech-blog-cms#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "handlebar": "^1.0.0",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
