@@ -3,33 +3,29 @@ const { Post } = require('../models');
 const postdata = [
   {
     title: 'Donec posuere metus vitae ipsum.',
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deleniti ut similique illum dolores architecto aperiam officia saepe quae nam consectetur excepturi, in fugiat?`,
+    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     user_id: 1,
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    content: `Id nihil similique rerum, dignissimos quas quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis pariatur velit nam, dignissimos odit quam est doloremque mollitia fugiat!`,
+    content: `Id nihil similique rerum, dignissimos quas quis!`,
 
     user_id: 2,
   },
   {
-    title:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
+    title: 'Donec diam neque, vestibulum',
     content: `aperiam officia saepe quae nam
-    consectetur excepturi, in fugiat? Vero labore blanditiis facere velit veritatis,
-    et nobis, saepe rem sit dolor expedita quia molestiae modi, nam fugit`,
+    consectetur excepturi, in fugiat? Vero labore blanditiis facere`,
     user_id: 10,
   },
   {
     title: 'Nunc purus.',
-    content: `Cupiditate dolore aspernatur ducimus mollitia suscipit fuga est pariatur fugit ipsa! Minima earum iusto aliquid. Suscipit ipsa ex, corporis ad eaque repellat minus provident repudiandae. Officiis amet doloribus quidem optio atque placeat consectetur quos aliquam cumque.`,
+    content: `Cupiditate dolore aspernatur ducimus mollitia suscipit fuga `,
     user_id: 4,
   },
   {
     title: 'Pellentesque eget nunc.',
-    content: `Id nihil similique rerum, dignissimos quas quis! Lorem ipsum dolor
-    sit amet consectetur adipisicing elit. Iure quis pariatur velit nam, dignissimos
-    odit quam est doloremque mollitia fugiat! Lorem ipsum dolor sit amet consectetur`,
+    content: `Id nihil similique rerum, dignissimos quas quis! Lorem`,
     user_id: 7,
   },
   {
