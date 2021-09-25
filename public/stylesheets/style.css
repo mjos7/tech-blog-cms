@@ -225,10 +225,38 @@ footer {
 }
 
 #password-login,
-#username-login {
+#username-login,
+#password-signup,
+#username-signup,
+#new-post {
   width: 350px;
-  padding: 10px 0px;
-  margin: 7px 0;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+#password-login,
+#password-signup {
+  margin-bottom: 30px;
+}
+
+#new-post {
+  margin-top: 30px;
+}
+
+#new-post a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-body .btn {
+  cursor: pointer;
+  width: 350px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+
+.card-body input {
+  padding: 60px 15px;
 }
 
 .min-100-vh {
