@@ -2,64 +2,62 @@ const { Comment } = require('../models');
 
 const commentdata = [
   {
-    comment_text: 'Nunc rhoncus dui vel sem.',
+    comment_text: 'I agree',
     user_id: 6,
     post_id: 1,
   },
   {
-    comment_text:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    comment_text: 'This blog post sucks',
     user_id: 6,
     post_id: 8,
   },
   {
-    comment_text: 'Aliquam erat volutpat. In congue.',
+    comment_text: `Great post - I couldn't agree more`,
     user_id: 3,
     post_id: 10,
   },
   {
-    comment_text:
-      'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    comment_text: 'Sooooo inspirational',
     user_id: 3,
     post_id: 18,
   },
   {
-    comment_text: 'In hac habitasse platea dictumst.',
+    comment_text:
+      "I'll quit my job and work for you right now if you show me your pay stub",
     user_id: 7,
-    post_id: 5,
+    post_id: 2,
   },
   {
-    comment_text: 'Vivamus vestibulum sagittis sapien.',
+    comment_text:
+      'How is that even possible? I thought the earth was a cube...',
     user_id: 1,
     post_id: 20,
   },
   {
-    comment_text:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    comment_text: "I couldn't disagree more!",
     user_id: 6,
     post_id: 7,
   },
   {
-    comment_text: 'Sed vel enim sit amet nunc viverra dapibus.',
+    comment_text: 'This post may have saved my life... thank you!',
     user_id: 7,
-    post_id: 4,
+    post_id: 14,
   },
   {
-    comment_text:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    comment_text: 'Gracias Señior',
     user_id: 6,
     post_id: 12,
   },
   {
-    comment_text: 'Morbi a ipsum.',
+    comment_text: 'Uno mas por favor',
     user_id: 6,
     post_id: 20,
   },
   {
     comment_text:
-      'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+      "Thank you for this. It's exactly what I needed to get through my day",
     user_id: 3,
-    post_id: 14,
+    post_id: 4,
   },
   {
     comment_text: 'Donec ut mauris eget massa tempor convallis.',

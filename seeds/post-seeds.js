@@ -2,54 +2,54 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
+    title: 'My very first blog post',
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     user_id: 1,
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
+    title: "3 reasons why I'm quitting my job",
     content: `Id nihil similique rerum, dignissimos quas quis!`,
 
     user_id: 2,
   },
   {
-    title: 'Donec diam neque, vestibulum',
+    title: "7 reasons why your boss doesn't like you",
     content: `aperiam officia saepe quae nam
     consectetur excepturi, in fugiat? Vero labore blanditiis facere`,
     user_id: 10,
   },
   {
-    title: 'Nunc purus.',
-    content: `Cupiditate dolore aspernatur ducimus mollitia suscipit fuga `,
-    user_id: 4,
-  },
-  {
-    title: 'Pellentesque eget nunc.',
+    title: 'Why dogs go to heaven and cats go to hell',
     content: `Id nihil similique rerum, dignissimos quas quis! Lorem`,
     user_id: 7,
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    title: '21 reasons you should leave him',
     content: 'https://stanford.edu/consequat.png',
     user_id: 4,
   },
   {
-    title: 'In hac habitasse platea dictumst.',
+    title: '3 reasons why you should get back together',
     content: 'http://edublogs.org/non/ligula/pellentesque.js',
     user_id: 1,
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
+    title: '6 steps to fall asleep while standing',
     content: 'http://ucla.edu/consequat/nulla.html',
     user_id: 1,
   },
   {
-    title: 'Duis ac nibh.',
+    title: 'You did it. You made it here. Good job',
+    content: `Cupiditate dolore aspernatur ducimus mollitia suscipit fuga `,
+    user_id: 4,
+  },
+  {
+    title: "The power of a fast 'no'",
     content: 'http://theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
     user_id: 9,
   },
   {
-    title: 'Curabitur at ipsum ac tellus semper interdum.',
+    title: "The art of quitting... before it's too late",
     content: 'https://reverbnation.com/ligula/sit.jpg',
     user_id: 5,
   },

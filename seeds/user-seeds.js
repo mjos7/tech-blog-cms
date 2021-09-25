@@ -8,12 +8,12 @@ const userdata = [
     password: 'password123',
   },
   {
-    username: 'jwilloughway1',
+    username: 'tomsnow',
     email: 'rmebes1@sogou.com',
     password: 'password123',
   },
   {
-    username: 'iboddam2',
+    username: 'meredith23',
     email: 'cstoneman2@last.fm',
     password: 'password123',
   },

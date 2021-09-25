@@ -224,6 +224,13 @@ footer {
   border-radius: var(--border-radius);
 }
 
+#password-login,
+#username-login {
+  width: 350px;
+  padding: 10px 0px;
+  margin: 7px 0;
+}
+
 .min-100-vh {
   min-height: 100vh;
 }
