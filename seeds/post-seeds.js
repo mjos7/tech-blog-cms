@@ -2,12 +2,12 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'My very first blog post',
+    title: 'The art of the croissant',
     content: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
     user_id: 1,
   },
   {
-    title: "3 reasons why I'm quitting my job",
+    title: '19 ways to count sheep before going to bed',
     content: `Id nihil similique rerum, dignissimos quas quis!`,
 
     user_id: 2,
@@ -19,7 +19,7 @@ const postdata = [
     user_id: 10,
   },
   {
-    title: 'Why dogs go to heaven and cats go to hell',
+    title: '101 steps to becoming a billionaire',
     content: `Id nihil similique rerum, dignissimos quas quis! Lorem`,
     user_id: 7,
   },
@@ -54,7 +54,7 @@ const postdata = [
     user_id: 5,
   },
   {
-    title: 'In hac habitasse platea dictumst.',
+    title: "3 reasons why I'm quitting my job",
     content: 'http://china.com.cn/lectus/vestibulum.json',
     user_id: 3,
   },
