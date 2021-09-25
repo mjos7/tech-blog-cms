@@ -2,8 +2,8 @@
   --primary: #ccd5da;
   --secondary: #dce9d5;
   --tertiary: #788585;
-  --light-dark: #a1a0a1;
-  --dark: #201110;
+  --light-dark: #cfcfcf;
+  --dark: hsl(225deg 46% 27%);
   --border-radius: 0.3rem;
 }
 
@@ -19,6 +19,10 @@ body {
   color: var(--dark);
   line-height: 1.5;
   font-size: 28px;
+}
+
+textarea {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h1,
@@ -71,7 +75,7 @@ p {
   color: white;
   border: none;
   outline: none;
-  background-color: var(--light-dark);
+  background-color: var(--tertiary);
   transform: translate(-1px, -1px);
 }
 
@@ -222,7 +226,6 @@ footer {
 
 .form-input {
   width: 100%;
-  padding: 3%;
   margin: 5px 0;
   font-size: 1.2rem;
   border: 2px solid var(--light-dark);
@@ -236,6 +239,7 @@ footer {
 #new-post {
   width: 350px;
   padding: 10px 15px;
+  height: 50px;
   margin: 10px 0;
 }
 #password-login,
@@ -252,16 +256,25 @@ footer {
   text-decoration: none;
 }
 
+#post-title {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+#content,
+#comment {
+  padding: 10px 15px;
+  margin: 10px 0;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
 .card-body .btn {
   cursor: pointer;
   width: 350px;
   padding: 10px 15px;
   margin: 10px 0;
   margin-bottom: 30px;
-}
-
-.card-body input {
-  padding: 60px 15px;
 }
 
 .min-100-vh {
