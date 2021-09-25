@@ -2,6 +2,10 @@
 
 ![License](https://img.shields.io/badge/License%3A-MIT-green.svg)
 
+## Screenshot
+
+![Screenshot](docs/tech-blog-screenshot.png)
+
 ## Description
 
 Welcome to the Tech Blog! Here you can view blog posts written by others in the dev / tech community. Want to contribute? Simply sign up and create your first blog post. If you'd like to edit your blog post later, just sign in and go to the dashboard page, go to the post and click update. You can also comment on other posts when your'e logged in.
