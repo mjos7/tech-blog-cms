@@ -23,7 +23,7 @@ Express.js was used for the server and MySQL for the database along with Sequeli
 ## Links
 
 - **[GitHub Repo](https://github.com/mjos7/my-ecomm-backend-store/)**
-- **[Deployed Live App]()**
+- **[Deployed Live App](https://tranquil-lowlands-73983.herokuapp.com/)**
 
 ## Installation
 
